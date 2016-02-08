@@ -1,0 +1,36 @@
+@import 'common';
+
+#title {
+    bottom: 120px;
+    left: 50px;
+    position: absolute;
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+
+#social {
+    bottom: 50px;
+    right: 50px;
+    position: absolute;
+
+    i {
+        margin-left: 10px;
+    }
+}
+
+#effect-background {
+	position: relative;
+	width: 100%;
+	background: transparent;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 0;
+}

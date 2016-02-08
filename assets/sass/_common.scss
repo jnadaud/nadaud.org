@@ -1,0 +1,18 @@
+@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+@import 'variables/dark.scss';
+
+body {
+    background-color: $default-background-color;
+    color: $default-font-color;
+    font-family: $default-font-family;
+}
+
+a, a:active, a:hover {
+    text-transform: none;
+    color: $default-font-color;
+}
+
+h1 {
+    font-size: 40px;
+}
